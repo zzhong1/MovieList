@@ -1,16 +1,1 @@
-﻿@{
-    var db = Database.Open("Movie List");
-    var sqlQ = "SELECT * FROM FAVORITES";
-    var data = db.Query(sqlQ);
-}
-<div id="movieslist">
-            <ol>
-               @foreach(var row in data)
-               {
-                   <li><a href="EditMovie.cshtml?id=@row.id">@row.Name, @row.Category, @row.YearPublished</a> <a href="DeleteMovie.cshtml?id=@row.id">Delete</a>
-                       </li>
-                    
-               }
-            </ol>
-        <a href="AddMovie.cshtml">Add a new movie</a>
-        </div>
+﻿
