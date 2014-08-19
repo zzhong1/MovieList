@@ -1,0 +1,39 @@
+
+            #header h1{
+                font-size: xx-large;
+                font-weight: normal;
+                padding: 0px;
+                margin: 0px;
+                color: #4800ff;
+            }
+            #movieslist {
+                font-family: Geneva,Tahoma,sans-serif;
+            }
+            #movieslist ol {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                border: none;
+            }
+            #movieslist li a {
+                font-size: large;
+                color: #000;
+                display: block;
+                padding: initial;
+            }
+            #movieslist li a:hover {
+                border-left: 10px solid #b6ff00;
+                padding-left: 10px;
+                background-color: #e7f5f8;
+                text-decoration: none; 
+            }
+
+            #footer {
+                font-size: smaller;
+                color:#ccc;
+                text-align: center;
+                padding: 40px 10px 10px 10px;
+                border-top: 1px solid #e5e5e5;
+               
+            }
+            
